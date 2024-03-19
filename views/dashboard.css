@@ -1,0 +1,65 @@
+/* General Styling */
+body {
+    background-color: #000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+/* Navigation Bar Styling */
+.navi {
+    background-color: #202222;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.left-links {
+    display: flex;
+    align-items: center;
+}
+
+.left-links i,
+.left-links .logo {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.left-links .logo {
+    font-weight: bold;
+}
+
+.center-links {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Added alignment to center vertically */
+}
+
+.center-links a {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #333;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.center-links a:hover {
+    background-color: #555;
+}
+
+.center-links a:last-child {
+    margin-right: 0; /* Remove right margin for the last link */
+}
+
+/* Default Data Section Styling */
+.default-data {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
